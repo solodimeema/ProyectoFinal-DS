@@ -1,8 +1,8 @@
 <?php
-    $server='database';
-    $username='Master';
-    $password='0123';
-    $database='DatabaseProject';
+    $server='Database';
+    $username='root';
+    $password='MYSQL_ROOT_PASSWORD';
+    $database='DatabaseDS';
     try{
         $conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);
     }catch(PDOException $err){
