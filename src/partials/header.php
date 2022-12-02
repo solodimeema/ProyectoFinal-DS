@@ -1,3 +1,3 @@
 <header>
-    <a href="/">MY BUSSINESS</a>
+    <a href="/">SNEAKER STUDIO</a>
 </header>
