@@ -1,8 +1,8 @@
 <?php 
-    $usuario = $_POST['username'];
-    $password = $_POST['Contraseña'];
+    $usuario = $_POST['usuario'];
+    $password = $_POST['contraseña'];
     session_start();
-    $_SESSION['username'] = $usuario;
+    $_SESSION['usuario'] = $usuario;
 
     $conexion = mysqli_connect("Database","root","MYSQL_ROOT_PASSWORD","DatabaseDS");
     $consulta = "SELECT*FROM Usuarios where username='$usuario' and Contraseña='$password'";
@@ -11,13 +11,13 @@
     $filas = mysqli_fetch_array($resultado);
     
     if($filas['Cargo']==1){
-        header["Location:admin.php"];
+        header('Location: admin.php');
     }elseif($filas['Cargo']==2){
-        header["Location:cliente.php"];
+        header('Location: /cliente.php');
     }else{
         ?>
         <?php
-            include("inicio.php");
+            include("index.php");
         ?>
         <h1 class="bad"> ERROR EN LA AUTENTICACION</h1>
         <?php 

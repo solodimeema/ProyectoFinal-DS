@@ -9,9 +9,9 @@
 <body>
     <form action="verify.php" method="post">
         <h1 class="animate__animated animate__backInLeft">Login</h1>
-        <p>Usuario <input type="text" placeholder="Ingrese su nombre completo" name="Usuario"></p>
-        <p>Contraseña <input type="password" placeholder="Ingrese su contraseña" name="Contraseña"></p>
-        <input type="submit" value="ENTRAR">
+        <p>Usuario <input type="text" placeholder="Ingrese su nombre completo" name="usuario"></p>
+        <p>Contraseña <input type="password" placeholder="Ingrese su contraseña" name="contraseña"></p>
+        <input type="submit" value="INGRESAR">
     </form>
 </body>
 </html>
