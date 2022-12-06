@@ -12,9 +12,9 @@
         $filas = mysqli_fetch_array($resultado);
               
         if(($filas['Cargo'] == 1)&&(password_verify($password,$filas['Contraseña']))){
-          include('page/admin.php');
+          include('admin.php');
         }elseif(($filas['Cargo'] == 2)&&(password_verify($password,$filas['Contraseña']))){
-          include('page/cliente.php');
+          include('cliente.php');
         }else{
           ?>
           <div class="alert alert-warning" role="alert">
@@ -29,6 +29,6 @@
         echo "<script>alert('Usuario o contraseña incorrecto.');'</script>";
         include('index.php');
     }
-
+    
     mysqli_free_result($resultado);
     mysqli_close($conexion);
