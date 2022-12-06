@@ -20,7 +20,7 @@
       <div class="col">
         <div class="row">
           <div class="col text-center">
-            <img src="img/SneakerStudio.png" alt="Logo" width="55%">
+            <img src="img/Logo.png" alt="Logo" width="55%">
           </div>
           <div class="col" style="margin: auto; font-size: 25px;">Registrarse</div>
         </div>
@@ -28,7 +28,7 @@
           <form action="verifyS.php" method="post">
             <p>Nombre<input type="text" class="form-control" placeholder="" name="nombre"></p>
             <p>Nombre de usuario<input type="text" class="form-control" placeholder="" name="usuario"></p>
-            <p>Ocupacion<input type="text" class="form-control" placeholder="" name="ocupacion"></p>
+            <p>Ocupacion (Teclea: 1 -> Administrador o 2 -> Cliente)<input type="text" class="form-control" placeholder="" name="ocupacion"></p>
             <p>Contraseña<input type="password" class="form-control" placeholder="" name="contraseña"></p>
             <div class="d-grid w-75" style="margin: auto;">
               <button type="submit" class="btn btn-outline-info btn-lg" name="btnSignup">Guardar</button>

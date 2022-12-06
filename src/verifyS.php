@@ -5,7 +5,7 @@
     $ocupacion = $_POST['ocupacion'];
 
     session_start();
-    $_SESSION['usuario'] = $usuario;  
+    $_SESSION['usuario'] = $usuario;
     $conexion = mysqli_connect("Database","root","MYSQL_ROOT_PASSWORD","DatabaseDS");
     
     if(isset($_POST['btnSignup'])){

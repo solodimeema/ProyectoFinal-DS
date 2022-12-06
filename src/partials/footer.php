@@ -1,7 +1,7 @@
-<footer class="bg-light" style="width: 96.7%;">
+<footer style="background-color: #d4d4d4;">
   <div class="container">
-    <div class="row text-left">
-      <div class="col-md-4">
+    <div class="row">
+      <div class="col">
         <h4 class="text-muted" style="font-size: 20px;">Tambien puedes pagar en:</h4>
         <div class="container-fluid">
           <div class="row">
@@ -22,7 +22,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col">        
         <h4 class="text-muted" style="font-size: 20px;">Nuestras redes sociales</h4>
         <div class="column">
           <i class="fab fa-whatsapp" style="margin-right: 15px;"></i>
@@ -32,7 +32,7 @@
           <i class="fab fa-facebook-messenger"></i>
         </div>
       </div>
-      <div class="col-md-4 col-sm-12">
+      <div class="col">
         <h4 class="text-muted" style="font-size: 20px;">Contacto</h4>
         <form class="form-inline">
           <div class="col pl-0">
@@ -45,8 +45,10 @@
         </form>
       </div>
     </div>
+    <div class="row">
+      <h4 class="text-muted" style="font-size: 16px; text-align: center; margin-top: 0%;">
+        <i class="far fa-copyright" style="margin-top: 20px;"></i>2022 SS. Todos los derechos reservados. 
+      </h4>      
+    </div>
   </div>
-  <h4 class="text-muted" style="font-size: 16px; text-align: center; margin-top: 0%;">
-    <i class="far fa-copyright" style="margin-top: 20px;"></i>2022 SS. <br> Todos los derechos reservados. 
-  </h4>
 </footer>

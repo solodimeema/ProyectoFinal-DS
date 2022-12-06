@@ -19,7 +19,7 @@
         </div>
         <div class="col">
           <div class="row" style="width: 50%; margin: auto;">
-            <img src="img/SneakerStudio.png" alt="Logo">
+            <img src="img/Logo.png" alt="Logo">
           </div>
           <div class="row">
             <form action="verifyL.php" method="post">

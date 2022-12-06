@@ -7,11 +7,11 @@
     <?php require 'partials/pagehead.php'; ?>
 </head>
 <body>
-  <?php require 'partials/headerAdmin.php'; ?>
+  <?php require 'partials/headerAdmin.php';?>
     
   <main>
     <div class="bg-light">
-      <h1 style=" font-size: 40px; text-align: center;">Administracion de Inventario</h1>
+      <h1 style=" font-size: 40px; text-align: center;">PEDIDOS</h1>
         <table class="table table-dark table-striped" style="width: 95%; margin: auto;">
           <thead>
             <tr>
@@ -21,7 +21,7 @@
               <th scope="col">Color</th>
               <th scope="col">Talla</th>
               <th scope="col">Cantidad</th>
-              <th scope="col">Fecha y hora</th>
+              <th scope="col">Fecha y Hora</th>
             </tr>
           </thead>
           <tbody>
@@ -38,7 +38,7 @@
         </table>  
     </div>
       <div class="bg-light">
-        <h1 style="font-size: 18px; text-align: center;">Ingrese los datos de la entrega de los proveedores:</h1>
+        <h1 style="font-size: 18px; text-align: center;">Desea ordenar un pedido, ingrese los datos correspondientes:</h1>
         <form action="" method="post">
           <input type="text" class="form-control" placeholder="">
           <input type="text" class="form-control" placeholder="" name="descripcion">
@@ -51,7 +51,7 @@
         </form>
     </div>
   </main>
-  
-  <?php require 'partials/footer.php'; ?> 
+
+  <?php require 'partials/footer.php'; ?>
 </body>
 </html>

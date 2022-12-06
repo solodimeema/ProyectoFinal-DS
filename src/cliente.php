@@ -7,7 +7,7 @@
     <?php require 'partials/pagehead.php'; ?>
 </head>
 <body>
-  <?php require 'partials/header.php'; ?>
+  <?php require 'partials/headerClientes.php'; ?>
 
   <main>
     <section class="bg-light">
@@ -19,7 +19,7 @@
             </div>
           </div>
           <div class="col-12 col-lg-5">
-            <h2 style="font-size: 2em;">También encuentra una gran variedad en ropa deportiva</h2>
+            <h2 style="font-size: 1.8em; text-align: center;">También encuentra una gran variedad en ropa deportiva</h2>
           </div>
         </div>
       </div>
@@ -180,8 +180,8 @@
       <div class="container px-5">
         <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
           <div class="col-12 col-lg-5">
-            <h2 class="display-4 lh-1 mb-4">Visitanos</h2>
-            <p class="lead fw-normal text-muted mb-5 mb-lg-0" style="font-size: 1em;">Viste tu actitud. No digas quien eres, demuestrales quien eres y que el estilo no tiene reglas, las creas tù.</p>
+            <h2 class="display-4 lh-1 mb-4 text-center">Visitanos</h2>
+            <p class="lead fw-normal text-muted mb-5 mb-lg-0" style="font-size: 1em; text-align: center;">Viste tu actitud. No digas quien eres, demuestrales quien eres y que el estilo no tiene reglas, las creas tù.</p>
           </div>
           <div class="col-sm-8 col-md-6">
             <div class="px-5 px-sm-0">

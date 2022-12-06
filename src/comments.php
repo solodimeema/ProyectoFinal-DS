@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <?php require 'partials/header.php'; ?>
+  <?php require 'partials/headerClientes.php'; ?>
 
   <main>
     

@@ -8,9 +8,10 @@
 </head>
 
 <body>
-  <?php require 'partials/header.php'; ?>
+  <?php require 'partials/headerAdmin.php'; ?>
 
   <main>
+    <h1> Bienvenido</h1>
   </main>
 
   <?php require 'partials/footer.php'; ?>

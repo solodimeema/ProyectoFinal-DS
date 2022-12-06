@@ -7,7 +7,7 @@
     <?php require 'partials/pagehead.php'; ?>
 </head>
 <body>
-  <?php require 'partials/header.php'; ?>
+  <?php require 'partials/headerClientes.php'; ?>
 
   <main>
     <div class="bg-light text-center">
