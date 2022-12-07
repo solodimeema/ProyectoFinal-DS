@@ -8,10 +8,65 @@
 </head>
 
 <body>
-  <?php require 'partials/headerAdmin.php'; ?>
+  <header style="width: 100%;">
+    <div class="container">
+      <img src="img/Logo.png" alt="Logo" width="15%">
+    </div>
+  </header>
 
   <main>
-    <h1> Bienvenido</h1>
+    <section class="bg-light">
+      <div class="row text-center" style="padding-bottom: 10px;">
+        <h1>Bienvenido</h1>
+      </div>
+      <div class="row" style="text-align: center;">
+        <div class="col">
+          <div class="card" style="width: 14em; margin: auto;">
+            <div style="text-align: center; padding: 10px;">
+              <img src="img/Pedidos.png" class="card-img-top" style="width: 12em; height: 12em; border-radius: 10px;">
+            </div>
+            <div class="card-body">
+              <div class="title">
+                <h5 class="card-title">Pedidos</h5>
+              </div>
+              <div class="pricing">
+                <a href="pedidosAdmin.php" class="btn btn-dark px-5 mb-5">Entrar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 14em; margin: auto;">
+            <div style="text-align: center; padding: 10px;">
+              <img src="img/Inventario.png" class="card-img-top" style="width: 12em; height: 12em; border-radius: 10px;">
+            </div>
+            <div class="card-body">
+              <div class="title">
+                <h5 class="card-title">Inventario</h5>
+              </div>
+              <div class="pricing">
+                <a href="inventario.php" class="btn btn-dark px-5 mb-5">Entrar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 14em; margin: auto;">
+            <div style="text-align: center; padding: 10px;">
+              <img src="img/Cerrar.png" class="card-img-top" style="width: 12em; height: 12em; border-radius: 10px;">
+            </div>
+            <div class="card-body">
+              <div class="title">
+                <h5 class="card-title">Cerrar Sesion</h5>
+              </div>
+              <div class="pricing">
+                <a href="logout.php" class="btn btn-dark px-5 mb-5">Salir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </section>
   </main>
 
   <?php require 'partials/footer.php'; ?>

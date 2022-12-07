@@ -10,8 +10,8 @@
   <?php require 'partials/headerClientes.php'; ?>
 
   <main>
-    <div class="bg-light text-center">
-        <h1 style="margin-bottom: 20px; font-size: 4em; ">Ropa y Calzado</h1>
+    <div class="bg-light text-center" style="margin: 20px;">
+        <h1 style="margin: 20px; font-size: 4em; ">Ropa y Calzado</h1>
         <div class="row">
           <div class="col" style="margin: auto;">
             <img src="img/Marcas/Adidas.png" alt="Adidas" width="200px">

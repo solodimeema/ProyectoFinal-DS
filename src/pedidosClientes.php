@@ -22,6 +22,8 @@
               <th scope="col">Talla</th>
               <th scope="col">Cantidad</th>
               <th scope="col">Fecha y Hora</th>
+              <th scope="col"></th>
+              <th scope="col"></th>
             </tr>
           </thead>
           <tbody>
@@ -33,22 +35,23 @@
               <td></td>
               <td></td>
               <td></td>
+              <td></td>
+              <td></td>
             </tr>
           </tbody>
         </table>  
     </div>
-      <div class="bg-light">
-        <h1 style="font-size: 18px; text-align: center;">Desea ordenar un pedido, ingrese los datos correspondientes:</h1>
-        <form action="" method="post">
-          <input type="text" class="form-control" placeholder="">
-          <input type="text" class="form-control" placeholder="" name="descripcion">
-          <input type="text" class="form-control" placeholder="" name="marca">
-          <input type="text" class="form-control" placeholder="" name="color">
-          <input type="text" class="form-control" placeholder="" name="talla">
-          <input type="text" class="form-control" placeholder="" name="cantidad">
-          <input type="text" class="form-control" placeholder="" name="time">
-          <input type="submit" value="Agregar">
-        </form>
+    <div class="bg-light">
+      <h1 style="font-size: 18px; text-align: center;">Desea ordenar un pedido, ingrese los datos correspondientes:</h1>
+      <form action="#" method="post">
+        <p>Codigo del producto:<input type="text" class="form-control" placeholder=""></p>
+        <p>Talla:<input type="text" class="form-control" placeholder="" name="talla"></p>
+        <p>Cantidad:<input type="text" class="form-control" placeholder="" name="cantidad"></p>
+        <p>Fecha:<input type="text" class="form-control" placeholder="" name="time"></p>
+        <div class="d-grid w-75" style="margin: auto;">
+            <button type="submit" class="btn btn-secondary" name="btnSelect">Agregar</button>
+        </div>   
+      </form>
     </div>
   </main>
 
