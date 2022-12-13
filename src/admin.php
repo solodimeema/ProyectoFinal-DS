@@ -23,6 +23,21 @@
         <div class="col">
           <div class="card" style="width: 14em; margin: auto;">
             <div style="text-align: center; padding: 10px;">
+              <img src="img/Admins.png" class="card-img-top" style="width: 12em; height: 12em; border-radius: 10px;">
+            </div>
+            <div class="card-body">
+              <div class="title">
+                <h5 class="card-title">Administradores</h5>
+              </div>
+              <div class="pricing">
+                <a href="addAdmin.php" class="btn btn-dark px-5 mb-5">Ir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 14em; margin: auto;">
+            <div style="text-align: center; padding: 10px;">
               <img src="img/Pedidos.png" class="card-img-top" style="width: 12em; height: 12em; border-radius: 10px;">
             </div>
             <div class="card-body">
@@ -30,7 +45,7 @@
                 <h5 class="card-title">Pedidos</h5>
               </div>
               <div class="pricing">
-                <a href="pedidosAdmin.php" class="btn btn-dark px-5 mb-5">Entrar</a>
+                <a href="pedidosAdmin.php" class="btn btn-dark px-5 mb-5">Ir</a>
               </div>
             </div>
           </div>
@@ -45,7 +60,7 @@
                 <h5 class="card-title">Inventario</h5>
               </div>
               <div class="pricing">
-                <a href="inventario.php" class="btn btn-dark px-5 mb-5">Entrar</a>
+                <a href="inventario.php" class="btn btn-dark px-5 mb-5">Ir</a>
               </div>
             </div>
           </div>

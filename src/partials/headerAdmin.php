@@ -9,6 +9,9 @@
               <a class="nav-link" href="admin.php"><i class="fa-solid fa-house"></i> Inicio</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="addAdmin.php"><i class="fa-solid fa-users"></i> Administradores</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="pedidosAdmin.php"><i class="fa-solid fa-list"></i> Pedidos</a>
             </li>
             <li class="nav-item">
