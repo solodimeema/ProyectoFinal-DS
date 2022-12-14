@@ -34,12 +34,12 @@
             echo "<script>alert('Usuario registrado: $name');</script>";
             ?>
             <?php
-                include("index.php");
+                include("addAdmin.php");
             ?>
             <?php
         }else{
             echo "<script>alert('Datos erroneos o campos sin llenar.');</script>";
-            include("signup.php");
+            include("addAdmin.php");
         }
     }
 ?>

@@ -21,12 +21,53 @@
         <div class="col">
           <h1 style="font-size: 20px; text-align: center;">Ingrese los datos:</h1>
           <form action="insertar.php" method="POST">
-            <input type="text" class="form-control mb-3" name="Descripcion" placeholder="Descripcion">
-            <input type="text" class="form-control mb-3" name="Marca" placeholder="Marca">
-            <input type="text" class="form-control mb-3" name="Color" placeholder="Color">
-            <input type="text" class="form-control mb-3" name="Talla" placeholder="Talla">
-            <input type="text" class="form-control mb-3" name="Cantidad" placeholder="Cantidad">
-            <div class="row">
+            <div class="col">
+              <div class="row" style="margin: 5px;">
+                <select class="form-select" name="Descripcion">
+                  <option selected>Descripcion</option>
+                  <?php 
+                    $consulta1 = "SELECT * FROM Descripcion";
+                    $ejecutar1 = mysqli_query($conn,$consulta1);
+                    foreach($ejecutar1 as $opciones1):
+                  ?>
+                  <option value="<?php echo $opciones1['Descripcion'] ?>"><?php echo $opciones1['Descripcion'] ?></option>
+                  <?php endforeach ?>
+                </select>
+              </div>
+
+              <div class="row" style="margin: 5px;">
+                <select class="form-select" name="Marca">
+                <option selected>Marca</option>
+                  <?php 
+                    $consulta2 = "SELECT * FROM Marca";
+                    $ejecutar2 = mysqli_query($conn,$consulta2);
+                    foreach($ejecutar2 as $opciones2):
+                  ?>
+                  <option value="<?php echo $opciones2['Marca'] ?>"><?php echo $opciones2['Marca'] ?></option>
+                  <?php endforeach ?>
+                </select>
+              </div>
+
+              <div class="row" style="margin: 5px;">
+                <select class="form-select" name="Color">
+                  <option selected>Color</option>
+                  <?php 
+                    $consulta3 = "SELECT * FROM Colores";
+                    $ejecutar3 = mysqli_query($conn,$consulta3);
+                    foreach($ejecutar3 as $opciones3):
+                  ?>
+                  <option value="<?php echo $opciones3['Color'] ?>"><?php echo $opciones3['Color'] ?></option>
+                  <?php endforeach ?>
+                </select>
+              </div>
+              <div class="row" style="margin: 5px;">
+                <input type="text" class="form-control" name="Talla" placeholder="Talla">
+              </div>
+              <div class="row" style="margin: 5px;">
+                <input type="text" class="form-control" name="Cantidad" placeholder="Cantidad">
+              </div>
+            </div>
+            <div class="row" style="padding-top: 20px;">
               <div class="col">
                 <div class="d-grid w-50" style="margin: auto;">
                   <button type="submit" class="btn btn-secondary" name="btnCancel">Cancelar</button>
