@@ -15,13 +15,13 @@
       <form action="verifyComment.php" method="post">
         <div class="row" style="margin: auto;">
           <div class="col">
-            <select class="form-select d-grid w-50">
+            <select class="form-select d-grid w-25" name="star">
               <option selected>Calificanos</option>
-              <option name="star">1</option>
-              <option name="star">2</option>
-              <option name="star">3</option>
-              <option name="star">4</option>
-              <option name="star">5</option>
+              <option value="1">1 estrella</option>
+              <option value="2">2 estrellas</option>
+              <option value="3">3 estrellas</option>
+              <option value="4">4 estrellas</option>
+              <option value="5">5 estrellas</option>
           </select>
           </div>
         </div>
